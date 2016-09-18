@@ -1,0 +1,154 @@
+/** {
+  box-sizing: border-box; }*/
+
+  /* Large desktop */
+      @media (min-width: 980px) {
+       body {
+         padding-top: 20px;
+         color: #5a5a5a;
+       }
+       .linediv-l{
+         border-right: 1px white solid;
+       }
+       .linediv-r {
+         border-left: 1px white solid;
+       }
+      } 
+    
+      /* Landscape phones and down */
+      @media (max-width: 480px){
+        .copy {
+          padding: 2.5% 10%;
+        }
+        .linediv-l{
+         border-bottom: 1px white solid;
+       }
+       .linediv-r {
+         border-top: 1px white solid;
+       }
+      }
+
+      .icon-yaga {
+      	background-image: "images/img4.jpg";
+      }
+
+      .logbtn {
+
+      	position: absolute;
+      	top: 2%;
+      	right: 1%;
+      	float: left;
+      	margin-top: 7px;
+      	
+      }
+      
+      .login-inp {
+      	position:relative;
+     	top: 0%;
+      	left: 100%;
+      	float: left;
+
+
+      }
+     
+     .username {
+     	padding-top: 7px;
+     	align: center;
+     	color: white;
+     	font-style: bold;
+     	margin: 2px;
+     	opacity: .8;
+     	
+     }
+
+     .password {
+     	padding-top: 7px;
+     	align: center;
+     	color: white;
+     	font-style: bold;
+     	margin: 2px;
+     	opacity: .8;
+     }
+
+     .uname {
+     	padding-top: 10px;
+     	align: center;
+     	margin: 7px;
+     	width: 85%;
+     	
+     }
+
+     .pwd {
+     	padding-top: 10px;
+     	align: center;
+     	margin: 7px;
+     	width: 85%;
+     	
+     }
+
+     .brand-pos {
+     	padding-top: 2px;
+     	margin-top: 2%;
+     }
+      /* All form factors */
+
+      /* Main body and headings */
+      body{
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      }
+      .heading, .subheading {
+        font-family: 'Ubuntu', Helvitca, Arial, sans-serif;
+        text-align: center;
+      }
+  
+      p.lead {
+        padding-top: 1.5%;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 30px;
+      }
+
+      p {
+        font-size: 18px;
+        font-family: 'Ubuntu', Helvitca, Arial, sans-serif;
+        line-height: 24x; 
+      }
+
+      /* video pitch and Action */
+      .pitch {
+        padding: 2.5% 0%; 
+      }
+      .order {
+        padding: 2% 0%; 
+      }
+      .actions {
+        background-color: #343434;
+        padding: 3% 0%;
+      }
+      .video, .thermometer, .order, .social .statistics {
+        border: 1px dotted;
+        text-align: center;
+      }
+      .statistics h3, .statistics p {
+        color: white;
+      }
+
+      /*Marketing Copy and Footer */
+      .copy {
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        text-align: justify;
+      }
+      .asset {
+        padding: 2.5% 0%;
+      }
+      .footer {
+        color: #cccccc;
+        text-align: center;
+      }
+      .footer p {
+        font-size: 11px;
+      }
+      .footer a {
+        color: #ccccff;
+      }      

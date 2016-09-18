@@ -1,0 +1,15 @@
+1. help-on-priority
+2. help-in-chosenarea
+	-financial
+	-motivational
+	
+3. help-in-sector
+	-environment
+	-health
+	-educational
+	-community-cleaning
+	-legal
+	
+3. help-through-Org
+	-toOrg
+	-toreciepent
